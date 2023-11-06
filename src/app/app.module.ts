@@ -13,6 +13,8 @@ import { EditPostComponent } from './components/edit-post/edit-post.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     EditPostComponent,
     AboutComponent,
     ContactMeComponent,
-    HomepageComponent
+    HomepageComponent,
+    NavbarComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

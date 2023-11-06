@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  .list {
+    list-style: none;
+    li {
+      display: inline-block;
+      margin-right: 1.5rem;
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: var(--base-color);
+      }
+    }
+  }
+}
