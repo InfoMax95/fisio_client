@@ -10,6 +10,9 @@ import { PostFormComponent } from './components/post-form/post-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AddPostComponent } from './components/add-post/add-post.component';
 import { EditPostComponent } from './components/edit-post/edit-post.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactMeComponent } from './components/contact-me/contact-me.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { EditPostComponent } from './components/edit-post/edit-post.component';
     NotFoundComponent,
     PostFormComponent,
     AddPostComponent,
-    EditPostComponent
+    EditPostComponent,
+    AboutComponent,
+    ContactMeComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,

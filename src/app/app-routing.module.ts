@@ -4,9 +4,13 @@ import { PostsListComponent } from './components/posts-list/posts-list.component
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { AddPostComponent } from './components/add-post/add-post.component';
 import { EditPostComponent } from './components/edit-post/edit-post.component';
+import { ContactMeComponent } from './components/contact-me/contact-me.component';
+import { AboutComponent } from './components/about/about.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
 
 const routes: Routes = [
-  {path: '', pathMatch: 'full', redirectTo: 'posts' },
+  {path: '', pathMatch: 'full', redirectTo: 'homepage' },
+  {path: 'homepage', component: HomepageComponent },
   {path: 'posts', component: PostsListComponent },
   {path: 'posts/new', component: AddPostComponent },
   {path: 'posts/edit/:id', component: EditPostComponent },
@@ -17,8 +21,8 @@ const routes: Routes = [
   //     {path: 'user-manager', component: UserManagerComponent, canActivate: [AdminGuard]},
   //   ]},
   // {path: 'apps', component: AppsComponent},
-  // {path: 'contact', component: ContactComponent},
-  // {path: 'about', component: AboutComponent},
+  {path: 'contact-me', component: ContactMeComponent},
+  {path: 'about', component: AboutComponent},
   // {path: 'post/:id', component: PostComponent},
   // { path: 'login', component: LoginComponent},
   // { path: 'register', component: RegisterComponent},
