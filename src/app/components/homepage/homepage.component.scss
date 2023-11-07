@@ -1,13 +1,14 @@
 section {
   height: 500px;
   &.jumbotron {
-    background-color: aqua;
+    // background-color: aqua;
     display: flex;
     .jumbo {
       width: 50%;
       height: 100%;
       &.left {
         position: relative;
+        background-color: #fafcfc;
         &.xsmall, &.small {
           display: none;
         }
@@ -16,7 +17,7 @@ section {
           top: 50%;
           left: 80%;
           transform: translate(-50%, -50%);
-          font-size: 2rem;
+          font-size: 1.5rem;
           width: 50%;
         }
       }
@@ -25,7 +26,7 @@ section {
           width: 100%;
         }
         img {
-          max-width: 100%;
+          width: 100%;
           height: 100%;
           object-fit: cover;
         }
