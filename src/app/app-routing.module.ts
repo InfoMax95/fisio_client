@@ -33,7 +33,7 @@ const routes: Routes = [
   // questo va sempre inserito come ultima path altrimenti rischiamo che prenda sempre questo
   {
     path: '**', // questo indica qualsiasi indirizzo diverso dai nostri
-    redirectTo: '/404'
+    redirectTo: '404'
   }
 ];
 

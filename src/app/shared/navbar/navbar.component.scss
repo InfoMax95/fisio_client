@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 60px;
+  background-color: var(--background-color-navbar);
   .list {
     list-style: none;
     li {
@@ -11,7 +12,11 @@
       a {
         text-decoration: none;
         text-transform: uppercase;
-        color: var(--base-color);
+        color: var(--color-navbar);
+        &.activeTab {
+          text-decoration: underline;
+          font-weight: 600;
+        }
       }
     }
   }

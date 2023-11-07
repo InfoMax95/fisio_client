@@ -24,7 +24,7 @@ export class EditPostComponent {
       alert('No id provided');
     }
 
-    this.postService.getPost(id !).subscribe((post) => {
+    this.postService.getPost(id!).subscribe((post) => {
       this.post.next(post);
     });
   }

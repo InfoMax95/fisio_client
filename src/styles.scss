@@ -1,10 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  --base-color: #c6538c;
+  --base-color: #ffffff;
+  --base-black-color: #000000;
   --color-link: #125699;
+  --background-color-main: #ffffff;
+  --background-color-header: #f4f4f4;
+  --background-color-navbar: #ffffff;
+  --color-header: #000000;
+  --color-navbar: #000000;
 }
 *{margin: 0; padding: 0; box-sizing: border-box;}
-body {font-family: Arial, Helvetica, sans-serif; background-color: #008000;}
+body {font-family: Arial, Helvetica, sans-serif;}
 .buttons { display: flex; align-items: center; }
 .buttons > button { line-height: 20px; padding: 0.5rem 1rem; text-align: center; text-transform: uppercase; letter-spacing: 2px;}
 .buttons > button:hover {
