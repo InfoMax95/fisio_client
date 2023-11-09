@@ -11,6 +11,8 @@ import { PostService } from 'src/app/services/post.service';
 export class PostsListComponent {
   posts$: Observable<Post[]> = new Observable();
 
+  public items = [1, 2, 3, 4, 5, 6]
+
   constructor(private postsService: PostService) { }
 
   ngOnInit(): void {
